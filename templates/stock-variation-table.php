@@ -9,8 +9,8 @@
     <tbody>
     <?php
         
-        foreach($args as $arr){
-            $text = empty($arr['availability']) ? '' : '<p class="stock '.esc_attr($arr['class']).'">'.esc_html($arr['availability']).'</p>'; 
+        foreach($args as $arr){ 
+            $text = empty($arr['availability']) ? '' : '<p class="stock '.esc_attr($arr['class']).'">'.$arr['availability'].'</p>'; 
             echo '<tr>';
             echo '<td>'.$arr['title'].'</td>';
             echo '<td>'.$text.'</td>';
