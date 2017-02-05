@@ -12,10 +12,20 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
 
-A Simple Plugin Boiler Plate for woocommerce 
+This plugin is used to write the custom stock status with different colors for each woocommerce product or globally, let users to know exact stock status names in product details page.
 
 == Description ==
-A Simple Plugin Boiler Plate for woocommerce 
+This plugin is used to write the custom stock status with different colors for each woocommerce product or globally, let users to know exact stock status names in product details page.
+
+You can change the following default stock status and diferent colors for status text
+
+* In stock
+* Only %s left in stoc =k(can be backordered)
+* %s in stock
+* Available on backorder
+* Out of stock
+* Stock For Variation Can be shown
+
 
 == Screenshots ==
 == Upgrade Notice ==
@@ -45,7 +55,7 @@ The manual installation method involves downloading our plugin and uploading it 
  * OR via direct ZIP upload:
  * Upload the ZIP package via 'Plugins > Add New > Upload' in your WP Admin
  * OR via FTP upload:
- * Upload `WooCommerce-Plugin-Boiler-Plate` folder to the `/wp-content/plugins/` directory
+ * Upload `wc-product-stock-status` folder to the `/wp-content/plugins/` directory
  
 2. Activate the plugin through the 'Plugins' menu in WordPress
  
